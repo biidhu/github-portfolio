@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Here you can learn more about me and my interests.</p>
+        <img src="C:\Users\acer\OneDrive\Pictures\330982760_584775036996307_5785713181300275793_n.jpg" alt="My Image">
+    </div>
+
+    <div id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer with a strong interest in creating beautiful and functional websites. My goal is to continue
+            learning and improving my skills while developing new and interesting websites in the upcoming future.</p>
+    </div>
+
+    <div id="interests">
+        <h2>My Interests</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!-- Add more interests as needed -->
+        </ul>
+    </div>
+
+    <div id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+
+</html>
